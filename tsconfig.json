@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "removeComments": true,
+        "noImplicitAny": false,        
+        "outFile": "built/app.js",
+        "outDir": "built",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "watch": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
