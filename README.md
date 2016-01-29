@@ -1,0 +1,2 @@
+# typegular
+learn typescript angular
