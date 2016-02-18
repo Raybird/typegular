@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Typescript with Angular",
   "scripts": {
+    "build": "rm -rf built && ntsc -p .",
+    "prepublish": "typings install && npm run build",
     "start": "php -S 127.0.0.1:8080",
-    "build": "ntsc -p .",
     "test": "echo not finished.",
     "watch-js": "ntsc -w -p ."
   },
@@ -16,10 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "angular": "~1.4.9",
-    "typescript": "~1.7.5",
-    "ntypescript": "~1.201601232203.1"
-  },
-  "devDependencies": {
-    "tsd": "~0.6.5"
+    "ntypescript": "~1.201602172206.1"
   }
 }
