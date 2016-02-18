@@ -9,6 +9,10 @@ learn typescript angular
 ## usage
 
   1. clone project.
-  2. npm run build.
-  3. npm run start.
-  4. open browser url: [http://localhost:8080](http://localhost:8080) 
+  2. npm install.
+  3. npm run build.
+  4. npm run start.
+  5. open browser url: [http://localhost:8080](http://localhost:8080)
+  
+## change log:
+  20160219 - change tsd to typings. 
